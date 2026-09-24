@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hearth &amp; Loom — Handcrafted Home Décor in Bangladesh</title>
+<meta name="description" content="Nakshi kantha table runners, cushion covers, jute décor and home textiles. Cash on Delivery across Bangladesh.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="announce">
+  <div class="container">
+    <span>Free delivery on orders over ৳<span id="free-ship-label">3,000</span> · Cash on Delivery available nationwide</span>
+    <span class="links"><span>Hotline: 09612-345678</span><span>Track Order</span></span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="container header-main">
+    <button class="logo" data-go="#/">
+      <span class="logo-mark">HL</span>
+      <span class="logo-text"><span class="logo-name">HerLoom</span><span class="logo-sub">Home Décor · Bangladesh</span></span>
+    </button>
+    <form class="search" id="search-form">
+      <input id="search-input" type="search" placeholder="Search table runners, cushion covers, jute…">
+      <button type="submit">Search</button>
+    </form>
+    <button class="cart-btn" data-action="open-cart">Cart <span class="cart-count" id="cart-count">0</span><span class="cart-sub">৳<span id="cart-sub">0</span></span></button>
+  </div>
+  <nav class="main-nav"><div class="container" id="nav"></div></nav>
+</header>
+
+<main id="app"></main>
+
+<footer class="site-footer">
+  <div class="container footer-cols">
+    <div><div class="footer-brand">Hearth &amp; Loom</div><span>House 12, Road 5, Dhanmondi, Dhaka 1205</span><span>support@hearthloom.com.bd</span><span>09612-345678 (10am–8pm)</span></div>
+    <div><h4>Shop</h4><a href="#/shop?cat=Table%20Runners">Table Runners</a><a href="#/shop?cat=Cushion%20Covers">Cushion Covers</a><a href="#/shop?cat=Table%20Mats%20%26%20Napkins">Table Mats &amp; Napkins</a><a href="#/shop?cat=Bed%20%26%20Throws">Bed &amp; Throws</a><a href="#/shop?cat=Jute%20D%C3%A9cor">Jute Décor</a></div>
+    <div><h4>Customer Care</h4><a href="#/">Delivery Information</a><a href="#/">Return &amp; Exchange Policy</a><a href="#/">Track Your Order</a><a href="#/">FAQ</a></div>
+    <div><h4>We Accept</h4><div class="pay-badges"><span>bKash</span><span>Nagad</span><span>Visa</span><span>Mastercard</span><span>COD</span></div></div>
+  </div>
+  <div class="container footer-bottom"><span>© 2026 Hearth &amp; Loom. All rights reserved.</span><span>Trade License No. TRAD/DNCC/000000/2026</span></div>
+</footer>
+
+<div class="drawer hidden" id="drawer">
+  <div class="drawer-backdrop" data-action="close-cart"></div>
+  <aside class="drawer-panel" id="drawer-panel"></aside>
+</div>
+
+<div class="toast hidden" id="toast"></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
